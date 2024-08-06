@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 12 Universities in India</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgba(55, 0, 255, 0.219), #6a9aae);
+            color: white;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .hero-section {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            margin-top: 100px;
+        }
+
+        .university-card {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            flex: 1 0 calc(33.33% - 20px);
+            position: relative;
+            border: 2px solid gray;
+            margin-bottom: 10px;
+        }
+
+        .university-card a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .university-card:hover {
+            transform: translateY(-5px);
+        }
+
+         img {
+            width: 100%;
+            height: 200px;
+            /* object-fit: cover; */
+            border-bottom: 2px solid white;
+           padding: 5px;
+           border-radius: 9px;
+           margin: 0 auto;
+
+        }
+
+        .university-info {
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 300px;
+        }
+
+        h2 {
+            color: black;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            color: gray;
+            line-height: 1.6;
+        }
+
+        .reviews-button {
+            position: absolute;
+            bottom: 43%;
+            left: 47%;
+            transform: translateX(-50%);
+            background-color: rgb(123, 123, 100);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 14px;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+           
+
+        }
+        .university-card:hover .reviews-button {
+            opacity: 1;
+        }
+        
+
+        @media (min-width: 600px) {
+            .university-card {
+                flex: 1 0 calc(48% - 20px);
+            }
+        }
+
+        @media (min-width: 768px) {
+            .university-card {
+                flex: 1 0 calc(48% - 20px);
+            }
+        }
+
+        @media (min-width: 992px) {
+            .university-card {
+                flex: 1 0 calc(31% - 20px);
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .university-card {
+                flex: 1 0 calc(22.05% - 20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Top Universities in India...</h1>
+    </header>
+
+    <div class="hero-section">
+        <h2>Welcome to our Website!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ratione atque ab sit dicta tempora alias architecto vero ullam facilis necessitatibus similique hic nostrum error, impedit obcaecati aperiam optio quibusdam.</p>
+    </div>
+
+    <section>
+        <!-- University 1 -->
+        <div class="university-card">
+            <a href="university1.html">
+                <img src="chitkarauniversityhp.jpeg" alt="University 1">
+                <div class="university-info">
+                    <h2><i>Chitkara University,HP</i></h2>
+
+                </div>
+            </a>
+            <a href="https://www.chitkarauniversity.edu.in/" class="reviews-button">See Reviews</a>
+        </div>
+
+    </section>
+
+    <!-- <footer>
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </footer> -->
+
+</body>
+
+</html>

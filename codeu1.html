@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: 0;
+            color: gray;
+        }
+
+        /* h1 { */
+             /* background: linear-gradient(to left, rgba(0, 8, 255, 0.589), rgba(128, 0, 68, 0.89));  */
+            /* color: rgb(0, 0, 0);
+            background-color: rgba(255, 0, 0, 0.868);
+            text-align: center;
+            padding: 8px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            border-radius: 13px;
+            border-bottom: 2px solid blue;
+        } */
+
+        
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .university-container {
+            width: 100%;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            background-color: white;
+            transition: transform 0.3s ease-in-out;
+            margin-top: 15px;
+            border: 2px solid gray;
+        }
+
+        .university-image {
+            padding-top: 2px;
+            width: 97%;
+            height: 200px;
+            display: block;
+            border-radius: 15px 15px 0 0;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .university-details {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .see-detail {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+          background-color: rgba(0, 128, 15, 0.788); 
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease-in-out;
+            width: 100%;
+            border: 1px solid rgb(128, 128, 128);
+        }
+
+        .see-detail:hover {
+
+         background: linear-gradient(to left, rgba(0, 0, 255, 0.393), rgba(0, 128, 0, 0.753)); 
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(52, 152, 219, 0.5);
+        }
+
+        img {
+            width: 100%;
+            height: 200px;
+            border-radius: 15px 15px 0 0;
+            transition: transform 0.3s ease-in-out;
+            object-fit: cover;
+        }
+
+        h3 {
+            margin-top: 10px;
+            color: rgb(0, 0, 0);
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px blue;
+        }
+
+        @media (min-width: 600px) {
+            .university-container {
+                width: 48%;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .university-container {
+                width: 48%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .university-container {
+                width: 31%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .university-container {
+                width: 22.05%;
+            }
+        }
+
+        .university-container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(219, 52, 52, 0.995);
+        }
+
+        .university-image:hover img {
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Top 12 Universities in India</h1>
+    </header>
+    <!-- <h1>University Website</h1> -->
+
+    <main>
+        <!-- University 1 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="chitkarauniversityhp.jpeg" alt="Chitkara University, HP">
+            </a>
+            <div class="university-details">
+                <h3>Chitkara University, HP</h3>
+                <a href="https://youtu.be/oPJmxW6FnUA?si=7HqyQdQacEP98Kvp" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 2 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="Thapar University">
+            </a>
+            <div class="university-details">
+                <h3>Thapar University</h3>
+                <a href="" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 3 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="sharada.jpg" alt="Sharda University">
+            </a>
+            <div class="university-details">
+                <h3>Sharda University</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 4 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="Chandigar.jpg" alt="Chitkara University, Punjab">
+            </a>
+            <div class="university-details">
+                <h3>Chitkara University, Punjab</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 5 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 5">
+            </a>
+            <div class="university-details">
+                <h3>University 5</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 6 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 6">
+            </a>
+            <div class="university-details">
+                <h3>University 6</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 7 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 7">
+            </a>
+            <div class="university-details">
+                <h3>University 7</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 8 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 8">
+            </a>
+            <div class="university-details">
+                <h3>University 8</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 9 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 9">
+            </a>
+            <div class="university-details">
+                <h3>University 9</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 10 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 10">
+            </a>
+            <div class="university-details">
+                <h3>University 10</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 11 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 11">
+            </a>
+            <div class="university-details">
+                <h3>University 11</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+        <!-- University 12 -->
+        <div class="university-container">
+            <a href="#" class="university-image">
+                <img src="thapar.jpg" alt="University 12">
+            </a>
+            <div class="university-details">
+                <h3>University 12</h3>
+                <a href="#" class="see-detail">See Reviews</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link href="unihub.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+      background-color: white; 
+    }
+
+    .navbar {
+      background-color: black; 
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .navbar select {
+      display: inline-block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      border: 2px solid green; 
+      border-radius: 500px;
+      border-top: none;
+      border-bottom: none;
+      font-style: initial;
+      margin: 10px; 
+      background-color: transparent;
+      cursor: pointer;
+      float: right;
+    }
+
+    .navbar select:hover {
+      background-color: rgba(34, 0, 225, 0.828);
+      color: red;
+    }
+
+    
+    .navbar select + select {
+      margin-left: 20px;
+    }
+
+    .paragraph{
+      padding: 20px;
+      text-align: center;
+    }
+    img {
+      height: 100px;
+      width: 200px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <img src="UniHub.png" alt="Logo">
+    <select >
+      <option value="" >rajendra</option>
+      <option value="#services" selected>Services</option>
+    </select>
+
+    <select >
+      <option value="">contact</option>
+      <option value="#contact"  selected>Contact</option>
+    </select>
+
+    <select >
+      <option value="">university</option>
+      <option value="#about">University</option>
+      <option value="#seeuniversity"></option>
+    </select> 
+
+    <select >
+      <option value="" >home</option>
+      <option value="#home" selected>Home</option>
+    </select>
+  </div>
+
+  <div class="paragraph">
+    <h1>Welcome to Our Website!raje.....</h1>
+    
+  </div>
+  
+</body>
+</html>
